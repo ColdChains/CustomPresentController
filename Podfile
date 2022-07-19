@@ -1,11 +1,22 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
-target 'LCCustomPresentController' do
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CustomPresentController' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for LCCustomPresentController
-  pod 'Masonry'
+  # Pods for CustomPresentController
+  pod 'MenuBarController'
+
+end
+
+target 'CustomPresentControllerDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CustomPresentController
+  pod 'MenuBarController'
 
 end

@@ -1,16 +1,20 @@
 PODS:
   - Masonry (1.1.0)
+  - MenuBarController (0.0.2):
+    - Masonry
 
 DEPENDENCIES:
-  - Masonry
+  - MenuBarController
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
+    - MenuBarController
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MenuBarController: e2f1822e27b543fc926a9d88aa7c3d89b9926b6b
 
-PODFILE CHECKSUM: 73fddae1a547f579c38500bdc314d077f3f5d782
+PODFILE CHECKSUM: 7cd80ef209d51e7cdf82e2b7615ff10410d06146
 
 COCOAPODS: 1.11.2

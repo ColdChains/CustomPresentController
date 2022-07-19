@@ -1,0 +1,6 @@
+framework module Pods_CustomPresentControllerDemo {
+  umbrella header "Pods-CustomPresentControllerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
